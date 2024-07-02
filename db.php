@@ -6,4 +6,5 @@ $watchmen = new Movie("Watchmen", "ENG", "2009", "163", "R");
 
 var_dump($theNeverEndingStory, $watchmen);
 
-$watchmen->setViewersAge(13);
+echo $watchmen->setViewersAge(13);
+

@@ -1,0 +1,44 @@
+[
+    {
+        "title": "The NeverEnding Story",
+        "language": "English",
+        "releaseDate": "1984",
+        "runningTime": "94",
+        "rating": "G"
+    },
+    {
+        "title": "Watchmen",
+        "language": "English",
+        "releaseDate": "2009",
+        "runningTime": "163",
+        "rating": "R"
+    },
+    {
+        "title": "Dune: Part Two",
+        "language": "English",
+        "releaseDate": "2024",
+        "runningTime": "166",
+        "rating": "PG-13"
+    },
+    {
+        "title": "Oppenheimer",
+        "language": "English",
+        "releaseDate": "2023",
+        "runningTime": "180",
+        "rating": "R"
+    },
+    {
+        "title": "Spider-Man: Across the Spider-Verse",
+        "language": "English",
+        "releaseDate": "2023",
+        "runningTime": "140",
+        "rating": "PG"
+    },
+    {
+        "title": "Top Gun: Maverick",
+        "language": "English",
+        "releaseDate": "2022",
+        "runningTime": "130",
+        "rating": "PG-13"
+    }
+]

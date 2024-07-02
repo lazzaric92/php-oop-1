@@ -1,4 +1,4 @@
 <?php 
-require_once __DIR__ . "/Models/Movie.php";
+require_once __DIR__ . "/db.php";
 
 ?>
