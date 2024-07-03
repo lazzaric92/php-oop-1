@@ -1,6 +1,6 @@
 <?php 
 require_once __DIR__ . "/db.php";
-require_once __DIR__ . "/Models/Movie.php";
+require_once __DIR__ . "/Classes/Movie.php";
 
 $theNeverEndingStory = new Movie("The NeverEnding Story", "ENG", "1984", "94", "G");
 $watchmen = new Movie("Watchmen", "ENG", "2009", "163", "R");
