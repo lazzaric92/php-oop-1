@@ -18,15 +18,16 @@ $moviesArray = [];
  * @param array $newInstancesArray array in which newly created instances are pushed
  * @return void
  */
-function createMovieInstance($dataArray, $titleProperty, $languageProperty, $releaseDateProperty, $runningTimeProperty, $ratingProperty, $newInstancesArray){
+function createMovieInstance($dataArray, $titleProperty, $languageProperty, $releaseDateProperty, $runningTimeProperty, $ratingProperty){
     for ($i=0; $i < count($dataArray); $i++) { 
         $movie = $dataArray[$i];
         $object = new Movie($movie[$titleProperty], $movie[$languageProperty], $movie[$releaseDateProperty], $movie[$runningTimeProperty], $movie[$ratingProperty]);
         $newInstancesArray[$i] = $object;
     };
-    var_dump($newInstancesArray);
+    return $newInstancesArray;
+    // var_dump($newInstancesArray);
 };
 
-createMovieInstance($moviesData, "title", "language", "releaseDate", "runningTime", "rating", $moviesArray);
+$moviesArray = createMovieInstance($moviesData, "title", "language", "releaseDate", "runningTime", "rating");
 var_dump($moviesArray);
 
